@@ -13,7 +13,7 @@ copy your Siesta sources to:
 
 Set SIESTA_VERSION in Dockerfile
 
-## Docker build
+## Docker build / run
 
-
-
+	docker build --tag=siesta:4.x.y . (4.x.y is the same as SIESTA_VERSION)
+	docker run --name siesta siesta:4.x.y
